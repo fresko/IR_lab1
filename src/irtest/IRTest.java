@@ -110,6 +110,7 @@ public class IRTest {
      * @throws IOException 
      */
     public int[][] matrixDocWord(File[] documents,List<String> lstWord) throws IOException{
+     //  int cant = pd.stream().filter(p -> p.equals(t)).collect(Collectors.toList()).size();   
      int[][] matrixDocWord =  new int[documents.length][lstWord.size()];
      List<String> lstWordDoc;
        int i=0;    
