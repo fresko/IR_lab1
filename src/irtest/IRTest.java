@@ -12,6 +12,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.stream.Collectors;
@@ -32,6 +33,8 @@ public class IRTest {
            List<String> lstWord = new ArrayList<>();
            List<String> lstWordClear = new ArrayList<>();
            int[][] matrixDocWord;
+           Scanner in = new Scanner(System.in);
+           String q;
             //Lee el contenido (los archivos) del directorio 
            File[] vctDocuments = ir.readDirectory(DIR_DOC) ;
            
@@ -50,6 +53,11 @@ public class IRTest {
             });
             System.out.println("");
             printArray(matrixDocWord);
+            
+            //Realizar pregunta : cuál es el caudal del río Danubio
+             System.out.println( "Realiza una Pregunta :");
+             q = in.nextLine();     
+             System.out.println( "Su pregunta es : "+ q);
         } catch (IOException ex) {
             Logger.getLogger(IRTest.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -128,7 +136,10 @@ public class IRTest {
       return matrixDocWord;   
      } 
     
-    
+    /**
+     * imprime matriz 
+     * @param matrix 
+     */
     public static void printArray(int matrix[][])
     {
        for (int row = 0; row < matrix.length; row++) 
