@@ -10,8 +10,8 @@ aislamiento de la base que agruparía en una misma entrada varios términos).
 
 Si nuestro SRI contiene los siguientes cuatro documentos: 
 
-+D1:el río Danubio pasa porViena,su color es azul 
-+D2:el caudal de un río asciende enInvierno 
-+D3:el ríoRhin yel ríoDanubio tienen mucho caudal 
-+D4:si unrío es navegable,es porque tienemucho caudal
++ D1:el río Danubio pasa porViena,su color es azul 
++ D2:el caudal de un río asciende enInvierno 
++ D3:el ríoRhin yel ríoDanubio tienen mucho caudal 
++ D4:si unrío es navegable,es porque tienemucho caudal
 
