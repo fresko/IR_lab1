@@ -27,8 +27,11 @@ Para dar respuesta a una determinada pregunta
    su vector de términos sería **Q = (1,1,0,0,0,1,0,0,0)**. 
 
 **Matriz vector de peso**
+
 ![Minion](https://github.com/fresko/IR_lab1/blob/master/img/Matriz_peso.png)
+
 **Calculo Similitudes**
+
 ![Minion](https://github.com/fresko/IR_lab1/blob/master/img/calculosimilitudes.png)
 
 
