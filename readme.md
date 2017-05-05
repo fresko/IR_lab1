@@ -23,5 +23,5 @@ Si nuestro SRI contiene los siguientes cuatro documentos:
 
 Para dar respuesta a una determinada pregunta 
  + Traducir pregunta en su vector de terminos
-  ** “¿cuál es el caudal del río Danubio?”, **
-   su vector de términos sería ** Q = (1,1,0,0,0,1,0,0,0) **. 
+  **“¿cuál es el caudal del río Danubio?”**
+   su vector de términos sería **Q = (1,1,0,0,0,1,0,0,0)**. 
