@@ -39,13 +39,12 @@ Para dar respuesta a una determinada pregunta
 Desarrollo en Java 8 con metodos que realizan el proceso stemming
 
 ``` java
-  //Lee el contenido (los archivos) del directorio 
+          //Lee el contenido (los archivos) del directorio 
            File[] vctDocuments = ir.readDirectory(DIR_DOC) ;
-           
            for(File obj:vctDocuments)
             //lee el contenido del archivo y alamacena en lista la palabras claves 
-            lstWord.addAll(ir.keyWord(ir.readText(obj.getAbsolutePath())));
-            //java 8 forma de limpir los repetidos de la lista , gnera nueva lista con los terminos 
+           lstWord.addAll(ir.keyWord(ir.readText(obj.getAbsolutePath())));
+           //java 8 forma de limpir los repetidos de la lista , gnera nueva lista con los terminos 
            lstWordClear = lstWord.stream().distinct().collect(Collectors.toList());
           
            //se arma la matrix documentos vs terminos
