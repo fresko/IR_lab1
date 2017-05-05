@@ -15,3 +15,5 @@ Si nuestro SRI contiene los siguientes cuatro documentos:
 + D3:el ríoRhin yel ríoDanubio tienen mucho caudal 
 + D4:si unrío es navegable,es porque tienemucho caudal
 
+![Minion](https://github.com/fresko/IR_lab1/blob/master/img/matriz_td.png)
+
